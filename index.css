@@ -43,6 +43,7 @@ header{
                 color: #FFFFFF;
                 padding: 5px 26px 0 26px;
                 border-radius: 30px;
+                box-shadow: 0 10px 10px #3C0E0E30;
             }
         }
     }

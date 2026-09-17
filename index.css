@@ -165,3 +165,114 @@ header{
     }
 }
 
+#receitas{
+    width: 1170px;
+    margin: 0 auto;
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #3C0E0E;
+
+    & span{
+        background-color: #ffffff;
+        line-height: 40px;
+        display: inline-block;
+        padding: 0 15px;
+        border-radius: 20px;
+        color: #F9C4C4;
+        font-weight: bold;
+    }
+    & h2{
+        font-size: 80px;
+        font-weight: bold;
+    }
+    & .detalhe{
+        width: 50px;
+        height: 1px;
+        background-color: #3C0E0E;
+        margin-left: 5px;
+        margin-top: -15px;
+    }
+    & h3{
+        font-size: 40px;
+        font-weight: 500;
+        margin-bottom: 16px;
+    }
+    & p{
+        width: 300px;
+        margin-bottom: 16px;
+    }
+    & a{
+        color: #3C0E0E;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+}
+
+#delivery{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 48px;
+    padding-right: 30px;
+    width: 1115px;
+    height: 370px;
+    background-image: linear-gradient(#F3C7C4F2,#541511F2);
+    color: #FFFFFF;
+    text-align: right;
+
+    & img{
+        margin-top: -100px;
+    }
+
+    & h2{
+        font-size: 48px;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+
+    & a{
+        width: 280px;
+        line-height: 50px;
+        font-weight: bold;
+        background-color: #FFFFFF;
+        color: #000000;
+        border-radius: 25px;
+        display: inline-block;
+        text-align: center;
+        margin-top: 30px;
+        box-shadow: 0 8px 7px #00000025;
+    }
+}
+
+#localizacao{
+    width: 1115px;
+    margin: 0 auto;
+    border-radius: 48px;
+    color: #FFFFFF;
+    display: flex;
+    background-image: linear-gradient(#541511A8, #F3C7C4);
+    padding-left: 40px;
+    position: relative;
+
+    & h2{
+        font-size: 80px;
+        line-height: 84px;
+    }
+    & .detalhe{
+        width: 50px;
+        height: 1px;
+        background-color: #FFFFFF;
+    }
+
+    & img{
+        border: 1px solid red;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
